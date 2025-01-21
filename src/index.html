@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Starlink</title>
 </head>
 <body>
@@ -12,27 +15,83 @@
         <nav class=" container max-w-[1438] mx-auto flex justify-between items-center ">
             <div class="flex justify-between items-center gap-16 text-white">
                   <h1 class="font-bold text-2xl tracking-[0.162em]"><a href="#">STARLINK</a></h1>
-            <ul class="flex justify-center gap-4 text-base font-medium text-white">
+            <ul class="flex justify-center gap-4 text-base font-medium text-white font-Roboto">
                 <li><a href="">PRESIDENTAIL</a></li>
                 <li><a href="">ROAM</a></li>
             </ul>
             </div>
-            <ul class="flex justify-center items-center gap-8 text-base font-medium text-white">
+            <ul class="flex justify-center items-center gap-8 text-base font-medium text-white font-Roboto">
                 <li><a href="">PERSONAL</a></li>
                 <li><a href="">BUSINESS</a></li>
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </ul>
         </nav>
          <div class="text-center pt-36 space-y-5">
-            <h2 class="text-6xl font-extrabold leading-snug w-[708px]  text-white text-center m-auto">HIGH-SPEED INTERNET
+            <h2 class="text-6xl font-bold leading-tight  w-[708px]  text-white text-center m-auto font-Arimo">HIGH-SPEED INTERNET
             AROUND THE WORLD</h2>
             <h4 class="text-xl font-normal text-white">Connect at home or on the go.</h4>
-            <p class="text-sm font-bold text-white gap-10"><a href="./image/Starlink_What_Is_Starlink.mp4">WATCH NOW       <i class="fa fa-play " aria-hidden="true"></i></a></p>
+            <p class="text-sm font-bold text-white gap-10"><a href="./image/Starlink_What_Is_Starlink.mp4">WATCH NOW                                                                    <i class="fa fa-play " aria-hidden="true"></i></a></p>
+        </div>
+        <div class="flex justify-center items-center gap-5 mt-44">
+            <div class="space-y-3 border border-white w-[540px] py-[2.5rem] px-[3rem]">
+                <h3 class="font-bold text-2xl text-white">RESIDENTIAL </h3>
+                <p class="font-light text-base text-white">Connect at home</p>
+                <p class="font-medium text-base text-white">Starting at ₦75,000/mo</p>
+                <button class="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">ORDER NOW</button>
+                <BUtton  class="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">LEARN MORE</BUtton>
+            </div>
+            <div class="space-y-3 border border-white w-[540px] py-[2.5rem] px-[3rem]">
+                <h3 class="font-bold text-2xl text-white">Roam </h3>
+                <p class="font-light text-base text-white">Connect while traveling anywhere in over 100 markets</p>
+                <p class="font-medium text-base text-white">Starting at ₦38,000/mo</p>
+                <button class="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">ORDER NOW</button>
+                <BUtton class="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">LEARN MORE</BUtton>
+            </div>
         </div>
     </header>
-    <main class="container max-w-[1438] mx-auto">
+    <main class="">
+        <div class="text-center m-auto bg-black w-full">
+            <h2 class="font-bold text-5xl">STARLINK FOR BUSINESSES AND POWER USERS</h2>
+            <div class="flex justify-center items-center gap-4 pt-5">
+                <p class="font-light text-xl">Reliable high-speed internet designed to keep businesses connected.</p>
+                <p class="font-bold text-sm"><a href="">LEARN MORE    <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+            </div>
+        </div>
         
-        
+        <!-- Creativity section -->
+         <section class="bg-creativityimg bg-repeat bg-cover bg-bottom w-full h-screen">
+            <div class="ml-48 py-36 w-[510px] text-white">
+                <p class="text-4xl font-bold">CONNECTIVITY WHERE YOU LEAST EXPECT IT</p>
+                <p class=" text-base font-normal pt-5">Streaming, video calls, online gaming, remote working and more are 
+                now possible in even the most remote locations thanks to the world’s most advanced internet system.</p>
+            </div>
+         </section>
+
+         <!-- Video section -->
+          <section class="flex gap-28 items-center bg-black">
+            <div class="relative">
+                <img class="w-[900px]" src="./image/earth-img.jpeg" alt="earth-img">
+                <div class="absolute">
+                     <img src="./image/video-player.jpg" alt="video-player">
+                </div>
+            </div>
+            <div class="text-white w-[649px] space-y-5">
+                <h4  class="text-4xl font-bold">GET ONLINE IN MINUTES</h4>
+                <p class="text-base font-normal">Set up Starlink with just two steps. Instructions work in either order:</p>
+                <ol class="text-white text-2xl font-bold py-5">
+                    <li class="pb-5">PLUG IT IN</li>
+                    <li>POINT AT SKY</li>
+                </ol>
+                <p class="text-base font-normal">Starlink requires an unobstructed view of the sky. Download the Starlink 
+                app to determine your best install location.</p>
+                <div class="flex gap-10">
+                    <p class="text-[0.688rem] font-bold"><a href="">DOWNLOAD FOR ANDRIOD 
+                     <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                    <p class="text-[0.688rem] font-bold"><a href="">DOWNLOAD FOR ANDRIOD 
+                    <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                </div>
+            </div>
+          </section>
     </main>
 </body>
 </html>
