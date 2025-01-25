@@ -6,7 +6,8 @@ module.exports = {
       backgroundImage: {
         homeImg: "url('/src/image/home-hero.jpg')",
         creativityimg: "url('/src/image/creativityimg.jpeg')",
-        earthImg: "url('/src/image/earth-img.jpeg')"
+        earthImg: "url('/src/image/earth-img.jpeg')",
+        rockectimg: "url('/src/image/rockect-img.jpeg')",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],

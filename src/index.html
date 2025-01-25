@@ -11,8 +11,8 @@
     <title>Starlink</title>
 </head>
 <body>
-    <header class="py-7 bg-homeImg bg-repeat bg-cover bg-bottom w-full h-screen">
-        <nav class=" container max-w-[1438] mx-auto flex justify-between items-center ">
+    <header class="py-7 bg-homeImg bg-repeat bg-cover  w-full ">
+        <nav class=" container max-w-[1438px] mx-auto flex justify-between items-center ">
             <div class="flex justify-between items-center gap-16 text-white">
                   <h1 class="font-bold text-2xl tracking-[0.162em]"><a href="#">STARLINK</a></h1>
             <ul class="flex justify-center gap-4 text-base font-medium text-white font-Roboto">
@@ -32,15 +32,15 @@
             <h4 class="text-xl font-normal text-white">Connect at home or on the go.</h4>
             <p class="text-sm font-bold text-white gap-10"><a href="./image/Starlink_What_Is_Starlink.mp4">WATCH NOW                                                                    <i class="fa fa-play " aria-hidden="true"></i></a></p>
         </div>
-        <div class="flex justify-center items-center gap-5 mt-44">
-            <div class="space-y-3 border border-white w-[540px] py-[2.5rem] px-[3rem]">
+        <div class="flex justify-center items-center gap-5 mb-20">
+            <div class="space-y-3 border border-gray-600 backdrop-blur-3xl rounded-[7px] w-[540px] py-[2.5rem] px-[3rem]">
                 <h3 class="font-bold text-2xl text-white">RESIDENTIAL </h3>
                 <p class="font-light text-base text-white">Connect at home</p>
                 <p class="font-medium text-base text-white">Starting at ₦75,000/mo</p>
                 <button class="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">ORDER NOW</button>
                 <BUtton  class="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">LEARN MORE</BUtton>
             </div>
-            <div class="space-y-3 border border-white w-[540px] py-[2.5rem] px-[3rem]">
+            <div class="space-y-3 border border-gray-600 backdrop-blur-xl rounded-[7px] w-[540px] py-[2.5rem] px-[3rem]">
                 <h3 class="font-bold text-2xl text-white">Roam </h3>
                 <p class="font-light text-base text-white">Connect while traveling anywhere in over 100 markets</p>
                 <p class="font-medium text-base text-white">Starting at ₦38,000/mo</p>
@@ -48,9 +48,10 @@
                 <BUtton class="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">LEARN MORE</BUtton>
             </div>
         </div>
+         
     </header>
     <main class="">
-        <div class="text-center m-auto bg-black w-full">
+         <div class="text-center  bg-black text-white py-40">
             <h2 class="font-bold text-5xl">STARLINK FOR BUSINESSES AND POWER USERS</h2>
             <div class="flex justify-center items-center gap-4 pt-5">
                 <p class="font-light text-xl">Reliable high-speed internet designed to keep businesses connected.</p>
@@ -59,7 +60,7 @@
         </div>
         
         <!-- Creativity section -->
-         <section class="bg-creativityimg bg-repeat bg-cover bg-bottom w-full h-screen">
+         <section class="bg-creativityimg bg-repeat bg-cover bg-bottom w-full h-full  py-32">
             <div class="ml-48 py-36 w-[510px] text-white">
                 <p class="text-4xl font-bold">CONNECTIVITY WHERE YOU LEAST EXPECT IT</p>
                 <p class=" text-base font-normal pt-5">Streaming, video calls, online gaming, remote working and more are 
@@ -68,14 +69,15 @@
          </section>
 
          <!-- Video section -->
-          <section class="flex gap-28 items-center bg-black">
-            <div class="relative">
-                <img class="w-[900px]" src="./image/earth-img.jpeg" alt="earth-img">
-                <div class="absolute">
-                     <img src="./image/video-player.jpg" alt="video-player">
+          <section class="flex gap-28 items-center bg-black relative w-full justify-center  ">
+            <img class="w-[1000px] mr-[50%] object-cover" src="./image/earth-img.jpeg" alt="earth-img">
+            <div class="absolute top-10 flex justify-between items-center w-[80%] mx-auto">
+                <div class="">
+                    <img class="object-contain w-[700px] ml-12" src="./css/Vidieos/video-player.jpg" alt="video-player">
+                    <a class="border border-white rounded-full p-14 absolute top-[38%] left-[22%] text-center" href="./css/Vidieos/Starlink_What_Is_Starlink.mp4">
+                        <i class="fa fa-play text-white text-[40px]" aria-hidden="true"></i></a>
                 </div>
-            </div>
-            <div class="text-white w-[649px] space-y-5">
+                 <div class="text-white w-[649px] space-y-5">
                 <h4  class="text-4xl font-bold">GET ONLINE IN MINUTES</h4>
                 <p class="text-base font-normal">Set up Starlink with just two steps. Instructions work in either order:</p>
                 <ol class="text-white text-2xl font-bold py-5">
@@ -91,7 +93,60 @@
                     <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
                 </div>
             </div>
+            </div>
+           
           </section>
+
+          <!-- ENGINEERED BY SPACEX -->
+           <section class="bg-rockectimg bg-repeat bg-cover bg-bottom w-full h-screen">
+            <div class="ml-48 py-36 w-[510px] text-white">
+                <p class="text-4xl font-bold">ENGINEERED BY SPACEX</p>
+                <p class=" text-base font-normal pt-5">As the world's leading provider of launch services – 
+                and the only provider with an orbital class reusable rocket – SpaceX has deep experience 
+                with both spacecraft and on-orbit operations.</p>
+                <BUtton  class="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white mt-5">LEARN MORE</BUtton>
+            </div>
+         </section>
+
+         <!-- 30 DAY TRIAL -->
+         <section class="bg-black text-white py-40">
+            <div class="text-center m-auto">
+                <h3 class="text-[3.188rem] font-bold">30 DAY TRIAL</h3>
+                <p class="text-[1.563rem] font-normal">If not satisfied, return Starlink for a full refund.</p>
+                <div class="py-20">
+                    <h4 class="font-bold text-xm mr-[20%] py-2">Service Address</h4>
+                    <input class="font-bold text-xs py-4 pl-6 pr-40 rounded-[4px] text-white bg-[#ffffff26] border" type="TYPE AND SECLECT" placeholder="TYPE AND SECLECT">
+                    <button class="font-bold text-xs bg-white text-black py-4 px-10 rounded-[4px] ml-3">ORDER NOW</button>
+                    <p class="font-bold text-xs py-8"><a href="">  VIEW AVAILABILITY & SPEED MAPS      
+                 <i class="fa fa-angle-right" aria-hidden="true"></i></a></p>
+                </div>
+            </div>
+         </section>
     </main>
+    <footer class="bg-black text-white">
+        <div class="container w-full mx-auto flex justify-between">
+            <div>
+                <ul class="flex gap-3 items-center font-bold text-xs">
+                <li><a href="">Careers</a></li>
+                <li><a href="">Satellite Operators</a></li>
+                <li><a href="">Authorized Reseller</a></li>
+                <li><a href="">Privacy & Legal</a></li>
+                <li><a href="">Privacy Preferences</a></li>
+            </ul>
+            <div class="flex gap-3 font-normal text-xs py-5">
+                <P>Starlink © 2025</P>
+                <P>Starlink is a division of SpaceX.</P>
+                <P>Visit us at spacex.com</P>
+            </div>
+            </div>
+            <div>
+                 <p>Interested in staying up to date with Starlink?</p>
+            </div>
+            <div class="flex gap-10 justify-between">
+                    <p class="">Email</p>
+                    <p>SIGIN UP</p>
+                </div>
+        </div>
+    </footer>
 </body>
 </html>
