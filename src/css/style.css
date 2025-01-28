@@ -674,6 +674,10 @@ video {
   display: none;
 }
 
+.h-\[500px\] {
+  height: 500px;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -710,12 +714,12 @@ video {
   width: 100%;
 }
 
-.max-w-\[1438px\] {
-  max-width: 1438px;
+.max-w-\[1196px\] {
+  max-width: 1196px;
 }
 
-.max-w-\[1955px\] {
-  max-width: 1955px;
+.max-w-\[1438px\] {
+  max-width: 1438px;
 }
 
 .flex-row {
@@ -825,8 +829,8 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
-.bg-\[\#212121cc\] {
-  background-color: #212121cc;
+.bg-\[\#212121CC\] {
+  background-color: #212121CC;
 }
 
 .bg-\[\#ffffff26\] {
@@ -855,12 +859,24 @@ video {
   background-image: url('/src/image/creativityimg.jpeg');
 }
 
+.bg-hardware {
+  background-image: url('/src/image/hardware-bg.jpeg');
+}
+
+.bg-highSpeed {
+  background-image: url('/src/image/highSpeed-bg.jpeg');
+}
+
 .bg-homeImg {
   background-image: url('/src/image/home-hero.jpg');
 }
 
 .bg-rockectimg {
   background-image: url('/src/image/rockect-img.jpeg');
+}
+
+.bg-weather {
+  background-image: url('/src/image/weatherResilent-img.jpeg');
 }
 
 .bg-cover {
@@ -871,8 +887,16 @@ video {
   background-position: bottom;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-repeat {
   background-repeat: repeat;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .object-contain {
@@ -885,8 +909,8 @@ video {
      object-fit: cover;
 }
 
-.p-10 {
-  padding: 2.5rem;
+.p-6 {
+  padding: 1.5rem;
 }
 
 .p-8 {
@@ -1043,6 +1067,10 @@ video {
   line-height: 2.5rem;
 }
 
+.text-\[0\.563rem\] {
+  font-size: 0.563rem;
+}
+
 .text-\[0\.688rem\] {
   font-size: 0.688rem;
 }
@@ -1179,6 +1207,10 @@ video {
 
   .md\:ml-60 {
     margin-left: 15rem;
+  }
+
+  .md\:ml-\[60\%\] {
+    margin-left: 60%;
   }
 
   .md\:mt-0 {
