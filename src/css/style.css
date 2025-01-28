@@ -674,10 +674,6 @@ video {
   display: none;
 }
 
-.h-\[500px\] {
-  height: 500px;
-}
-
 .h-screen {
   height: 100vh;
 }
@@ -893,10 +889,6 @@ video {
 
 .bg-repeat {
   background-repeat: repeat;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .object-contain {
