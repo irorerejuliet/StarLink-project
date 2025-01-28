@@ -8,6 +8,8 @@ module.exports = {
         creativityimg: "url('/src/image/creativityimg.jpeg')",
         earthImg: "url('/src/image/earth-img.jpeg')",
         rockectimg: "url('/src/image/rockect-img.jpeg')",
+        Residential: "url('/src/image/residential_bg.jpeg')",
+       Residential2: "url('/src/image/residential_main-bg.jpeg')",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
