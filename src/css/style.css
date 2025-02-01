@@ -622,11 +622,6 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -680,18 +675,6 @@ video {
   margin-top: 15rem;
 }
 
-.mt-40 {
-  margin-top: 10rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
-}
-
-.ml-60 {
-  margin-left: 15rem;
-}
-
 .mt-80 {
   margin-top: 20rem;
 }
@@ -728,6 +711,10 @@ video {
   width: 350px;
 }
 
+.w-\[385px\] {
+  width: 385px;
+}
+
 .w-\[554px\] {
   width: 554px;
 }
@@ -740,12 +727,8 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[385px\] {
-  width: 385px;
+.max-w-\[1156px\] {
+  max-width: 1156px;
 }
 
 .max-w-\[1196px\] {
@@ -754,22 +737,6 @@ video {
 
 .max-w-\[1438px\] {
   max-width: 1438px;
-}
-
-.max-w-\[\] {
-  max-width: ;
-}
-
-.max-w-\[11\] {
-  max-width: 11;
-}
-
-.max-w-\[115\] {
-  max-width: 115;
-}
-
-.max-w-\[1156px\] {
-  max-width: 1156px;
 }
 
 .flex-row {
@@ -1223,10 +1190,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .backdrop-blur-3xl {
