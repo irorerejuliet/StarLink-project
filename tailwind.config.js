@@ -13,6 +13,7 @@ module.exports = {
         highSpeed: "url('/src/image/highSpeed-bg.jpeg')",
         weather: "url('/src/image/weatherResilent-img.jpeg')",
         hardware: "url('/src/image/hardware-bg.jpeg')",
+        roam:       "url(/src/image/roam-bg.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
