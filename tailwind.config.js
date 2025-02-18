@@ -16,6 +16,7 @@ module.exports = {
         roam: "url(/src/image/roam-bg.jpeg)",
         workPlay: "url(/src/image/workPlay.jpg)",
         starlinkMotion: "url(/src/image/Starlink-motion.jpeg)",
+        Resilentweather: "url(/src/image/Resilentweather.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
