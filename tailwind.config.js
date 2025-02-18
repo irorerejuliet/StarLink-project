@@ -13,7 +13,9 @@ module.exports = {
         highSpeed: "url('/src/image/highSpeed-bg.jpeg')",
         weather: "url('/src/image/weatherResilent-img.jpeg')",
         hardware: "url('/src/image/hardware-bg.jpeg')",
-        roam:       "url(/src/image/roam-bg.jpeg)",
+        roam: "url(/src/image/roam-bg.jpeg)",
+        workPlay: "url(/src/image/workPlay.jpg)",
+        starlinkMotion: "url(/src/image/Starlink-motion.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
