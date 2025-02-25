@@ -17,6 +17,7 @@ module.exports = {
         workPlay: "url(/src/image/workPlay.jpg)",
         starlinkMotion: "url(/src/image/Starlink-motion.jpeg)",
         Resilentweather: "url(/src/image/Resilentweather.jpeg)",
+        residentialEarth: "url(/src/image/residential_earth-img.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
