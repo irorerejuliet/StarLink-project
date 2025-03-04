@@ -18,6 +18,7 @@ module.exports = {
         starlinkMotion: "url(/src/image/Starlink-motion.jpeg)",
         Resilentweather: "url(/src/image/Resilentweather.jpeg)",
         residentialEarth: "url(/src/image/residential_earth-img.jpeg)",
+        BusinessBg: "url(/src/image/business-home.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
