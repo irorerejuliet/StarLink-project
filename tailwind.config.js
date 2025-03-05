@@ -19,6 +19,7 @@ module.exports = {
         Resilentweather: "url(/src/image/Resilentweather.jpeg)",
         residentialEarth: "url(/src/image/residential_earth-img.jpeg)",
         BusinessBg: "url(/src/image/business-home.jpeg)",
+        UnlimitedService: "url(/src/image/UnlimitedService.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],

@@ -719,8 +719,12 @@ video {
   width: 100px;
 }
 
-.w-\[1156px\] {
-  width: 1156px;
+.w-\[1196px\] {
+  width: 1196px;
+}
+
+.w-\[1550px\] {
+  width: 1550px;
 }
 
 .w-\[308px\] {
@@ -747,12 +751,12 @@ video {
   width: 510px;
 }
 
-.w-\[568px\] {
-  width: 568px;
-}
-
 .w-\[619px\] {
   width: 619px;
+}
+
+.w-\[675px\] {
+  width: 675px;
 }
 
 .w-\[710px\] {
@@ -769,126 +773,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[11568px\] {
-  width: 11568px;
-}
-
-.w-\[1158px\] {
-  width: 1158px;
-}
-
-.w-\[1px\] {
-  width: 1px;
-}
-
-.w-\[1000px\] {
-  width: 1000px;
-}
-
-.w-\[px\] {
-  width: px;
-}
-
-.w-\[200px\] {
-  width: 200px;
-}
-
-.w-\[2000px\] {
-  width: 2000px;
-}
-
-.w-\[115px\] {
-  width: 115px;
-}
-
-.w-\[11px\] {
-  width: 11px;
-}
-
-.w-\[116px\] {
-  width: 116px;
-}
-
-.w-\[1160px\] {
-  width: 1160px;
-}
-
-.w-\[1180px\] {
-  width: 1180px;
-}
-
-.w-\[1190px\] {
-  width: 1190px;
-}
-
-.w-\[110px\] {
-  width: 110px;
-}
-
-.w-\[10px\] {
-  width: 10px;
-}
-
-.w-\[130px\] {
-  width: 130px;
-}
-
-.w-\[13000px\] {
-  width: 13000px;
-}
-
-.w-\[1300px\] {
-  width: 1300px;
-}
-
-.w-\[1800px\] {
-  width: 1800px;
-}
-
-.w-\[190px\] {
-  width: 190px;
-}
-
-.w-\[1900px\] {
-  width: 1900px;
-}
-
-.w-\[1700px\] {
-  width: 1700px;
-}
-
-.w-\[1500px\] {
-  width: 1500px;
-}
-
-.w-\[1550px\] {
-  width: 1550px;
-}
-
-.w-\[1196px\] {
-  width: 1196px;
-}
-
-.w-\[6px\] {
-  width: 6px;
-}
-
-.w-\[675px\] {
-  width: 675px;
-}
-
-.w-\[1175px\] {
-  width: 1175px;
-}
-
-.w-\[1596px\] {
-  width: 1596px;
-}
-
-.w-\[\] {
-  width: ;
 }
 
 .max-w-\[1156px\] {
@@ -1060,6 +944,10 @@ video {
 
 .bg-Resilentweather {
   background-image: url(/src/image/Resilentweather.jpeg);
+}
+
+.bg-UnlimitedService {
+  background-image: url(/src/image/UnlimitedService.jpeg);
 }
 
 .bg-creativityimg {
@@ -1426,14 +1314,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[3\.188\] {
-  color: 3.188;
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .backdrop-blur-3xl {
