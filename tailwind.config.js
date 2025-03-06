@@ -20,6 +20,8 @@ module.exports = {
         residentialEarth: "url(/src/image/residential_earth-img.jpeg)",
         BusinessBg: "url(/src/image/business-home.jpeg)",
         UnlimitedService: "url(/src/image/UnlimitedService.jpeg)",
+        fixedsiteBackgroud: "url(/src/image/fixedsiteHeroBg.jpeg)",
+        FixedSiteEarth: "url(/src/image/fixedsiteEarth1.webp)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
