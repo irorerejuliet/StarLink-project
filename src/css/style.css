@@ -715,12 +715,28 @@ video {
   height: 100vh;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[200px\] {
+  height: 200px;
+}
+
 .w-\[100px\] {
   width: 100px;
 }
 
+.w-\[1218px\] {
+  width: 1218px;
+}
+
 .w-\[1550px\] {
   width: 1550px;
+}
+
+.w-\[307px\] {
+  width: 307px;
 }
 
 .w-\[308px\] {
@@ -769,6 +785,42 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-\[150px\] {
+  width: 150px;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[250px\] {
+  width: 250px;
+}
+
+.w-\[2px\] {
+  width: 2px;
+}
+
+.w-\[400px\] {
+  width: 400px;
 }
 
 .max-w-\[1156px\] {
@@ -839,6 +891,10 @@ video {
   gap: 10rem;
 }
 
+.gap-48 {
+  gap: 12rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -853,10 +909,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-48 {
-  gap: 12rem;
 }
 
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
@@ -887,6 +939,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
 .rounded-\[4px\] {
