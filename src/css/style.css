@@ -647,6 +647,11 @@ video {
   margin-bottom: 5rem;
 }
 
+.my-40 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -723,6 +728,10 @@ video {
   height: 200px;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
 .h-screen {
   height: 100vh;
 }
@@ -789,6 +798,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 
 .min-w-full {
@@ -919,6 +932,10 @@ video {
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
 .rounded-\[4px\] {
   border-radius: 4px;
 }
@@ -1002,6 +1019,10 @@ video {
   background-image: url(/src/image/UnlimitedService.jpeg);
 }
 
+.bg-busnessRunning {
+  background-image: url(/src/image/KeepYourBusinesRunimg.jpeg);
+}
+
 .bg-creativityimg {
   background-image: url('/src/image/creativityimg.jpeg');
 }
@@ -1056,6 +1077,10 @@ video {
 
 .bg-workPlay {
   background-image: url(/src/image/workPlay.jpg);
+}
+
+.bg-fixedWeatherResilence {
+  background-image: url(/src/image/fixedsite_weather.jpeg);
 }
 
 .from-black {
@@ -1514,6 +1539,10 @@ video {
     margin-top: 0px;
   }
 
+  .md\:mt-48 {
+    margin-top: 12rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1629,6 +1658,10 @@ video {
 
   .md\:pt-28 {
     padding-top: 7rem;
+  }
+
+  .md\:pt-40 {
+    padding-top: 10rem;
   }
 
   .md\:text-start {

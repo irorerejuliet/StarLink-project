@@ -22,6 +22,8 @@ module.exports = {
         UnlimitedService: "url(/src/image/UnlimitedService.jpeg)",
         fixedsiteBackgroud: "url(/src/image/fixedsiteHeroBg.jpeg)",
         FixedSiteEarth: "url(/src/image/fixedsiteEarth1.webp)",
+        busnessRunning: "url(/src/image/KeepYourBusinesRunimg.jpeg)",
+        fixedWeatherResilence: "url(/src/image/fixedsiteWeather.jpeg)",
       },
       fontFamily: {
         Roboto: ["Roboto", "serif"],
